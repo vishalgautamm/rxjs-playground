@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon node_modules/gulp/bin/gulp.js scripts:server",
-    "watch": "node node_modules/gulp/bin/gulp.js watch:scripts"
+    "nodemon": "nodemon --watch build",
+    "watch": "node node_modules/gulp/bin/gulp.js scripts:server",
+    "start": "node node_modules/gulp/bin/gulp.js watch:scripts"
   },
   "author": "",
   "license": "ISC",
